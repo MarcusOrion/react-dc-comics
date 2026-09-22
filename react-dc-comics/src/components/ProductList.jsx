@@ -179,7 +179,7 @@ const comics = [
 
 export default function ProductList() {
   return (
-    <div className="grid grid-cols-6 gap-3 py-4">
+    <div className="grid grid-cols-6 gap-2 py-4 ml-[100px]">
       {comics.map((product) => (
         <Card key={product.id} title={product.title} image={product.thumb} />
       ))}
