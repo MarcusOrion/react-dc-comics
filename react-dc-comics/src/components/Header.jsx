@@ -4,12 +4,12 @@ export default function Header() {
     <header className="flex justify-between items-center ml-[200px] px-8 py-4 bg-white">
       <div>
         <img
-          className="flex items-center"
+          className="flex items-center relative left-100"
           src={logo}
           alt="Logo della DC Comics"
         />
       </div>
-      <ul className="flex items-center gap-6 list-none font-bold text-sm uppercase text-gray-700">
+      <ul className="flex items-center gap-6 relative right-50 list-none font-bold text-sm uppercase text-gray-700">
         <li>Characters</li>
         <li>Comics</li>
         <li>Movies</li>
