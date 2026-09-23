@@ -181,7 +181,7 @@ export default function ProductList() {
   return (
     <div className="grid grid-cols-6 gap-2 py-4 ml-[100px]">
       {comics.map((product) => (
-        <Card key={product.id} title={product.title} image={product.thumb} />
+        <Card key={product.id} title={product.series} image={product.thumb} />
       ))}
     </div>
   );

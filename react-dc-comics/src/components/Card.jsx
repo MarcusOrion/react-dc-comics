@@ -6,7 +6,7 @@ export default function Card({ image, title }) {
         alt={`Immagine del fumetto su ${title}`}
         className="w-[230px] h-[230px] object-cover shadow-lg"
       />
-      <h3 className="pt-2 uppercase text-lx">{title}</h3>
+      <h3 className="pt-5 uppercase text-lx">{title}</h3>
     </div>
   );
 }
