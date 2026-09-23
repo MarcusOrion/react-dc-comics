@@ -6,14 +6,14 @@ import periscope from "../assets/footer-periscope.png";
 export default function Footer() {
   return (
     <footer className="flex bg-[#202020] justify-around px-12 py-4">
-      <div className="flex justify-center items-center h-12 w-52 bg-transparent py-4 px-4 border-2 border-blue-600 hover:bg-blue-600/10 transition-colors cursor-pointer">
+      <div className="flex justify-center items-center h-12 w-38 bg-transparent py-4 px-4 border-2 border-[#0076de] hover:bg-blue-600/10 transition-colors cursor-pointer">
         <h2 className="h2 text-white text-sm tracking-wider font-semibold uppercase">
           Sign-up now!
         </h2>
       </div>
       <section className="flex justify-end items-center space-x-4 me-2">
         <div>
-          <h3 className="h2 text-blue-500 text-sm font-bold tracking-widest uppercase ">
+          <h3 className="h2 text-blue-500 text-lg font-bold tracking-widest uppercase ">
             Follow us
           </h3>
         </div>
