@@ -9,9 +9,12 @@ export default function Header() {
           alt="Logo della DC Comics"
         />
       </div>
-      <ul className="flex items-center gap-6 relative right-50 list-none font-bold text-sm uppercase text-gray-700">
+      <ul className="flex items-center gap-6 relative right-50 list-none font-bold text-base uppercase text-gray-700">
         <li>Characters</li>
-        <li>Comics</li>
+        <li className="relative cursor-pointer py-2 text-blue-600">
+          Comics
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-blue-600"></div>
+        </li>
         <li>Movies</li>
         <li>TV</li>
         <li>Games</li>
